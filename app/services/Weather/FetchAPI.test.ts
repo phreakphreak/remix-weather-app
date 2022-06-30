@@ -4,7 +4,7 @@ import { ForecastWeatherAPI } from "./ForecastWeatherAPI";
 
 test("FetchAPI", async () => {
   //   const apiKey = process.env.WEATHER_API_KEY as string;
-  const apiKey = "99cd70112dmsh874359de5ee0960p1a0eb3jsna25b0e22f9cf";
+  const apiKey = "";
   const params = {
     q: "London",
     days: "3",
